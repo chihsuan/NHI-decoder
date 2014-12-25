@@ -1,0 +1,74 @@
+{
+   "FEE_YM": {
+        "length": 6,
+        "start": 1,
+        "end": 6,
+        "type": "C"
+    },
+   "APPL_TYPE": {
+        "length": 1,
+        "start": 7,
+        "end": 7,
+        "type": "C"
+    },
+   "HOSP_ID": {
+        "length": 34,
+        "start": 8,
+        "end": 41,
+        "type": "C"
+    },
+   "APPL_DATE": {
+        "length": 8,
+        "start": 42,
+        "end": 49,
+        "type": "C"
+    },
+   "CASE_TYPE": {
+        "length": 1,
+        "start": 50,
+        "end": 50,
+        "type": "C"
+    },
+   "SEQ_NO": {
+        "length": 6,
+        "start": 51,
+        "end": 56,
+        "type": "N"
+    },
+    "DRUG_NO":{
+        "length": 12,
+        "start": 57,
+        "end": 68,
+        "type": "C"
+    },
+    "DRUG_USE":{
+        "length": 9,
+        "start": 69,
+        "end": 77,
+        "type": "C"
+    },
+    "TOTAL_QTY":{
+        "length": 7,
+        "start": 78,
+        "end": 84,
+        "type": "N"
+    },
+    "UNIT_PRICE":{
+        "length": 10,
+        "start": 85,
+        "end": 94,
+        "type": "N"
+    },
+    "TOTAL_AMT":{
+        "length": 8,
+        "start": 95,
+        "end": 102,
+        "type": "N"
+    }
+    "PAY_RATE":{
+        "length": 10,
+        "start": 103,
+        "end": 112,
+        "type": "N"
+    }
+}

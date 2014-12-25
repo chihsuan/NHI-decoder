@@ -90,141 +90,153 @@
         "type": "C"
     },
    "CARD_SEQ_NO": {
-        "length": 2,
+        "length": 4,
         "start": 124,
-        "end": 125,
-        "type": "C"
-    },
-   "ignore1": {
-        "length": 1,
-        "start": 126,
-        "end": 126,
-        "type": "I"
-   },
-   "GAVE_KIND": {
-        "length": 1,
-        "start": 127,
         "end": 127,
         "type": "C"
     },
+   "GAVE_KIND": {
+        "length": 1,
+        "start": 128,
+        "end": 128,
+        "type": "C"
+   },
    "PART_NO": {
         "length": 3,
-        "start": 128,
-        "end": 130,
+        "start": 129,
+        "end": 131,
         "type": "C"
     },
    "ACODE_ICD9_1": {
-        "length": 5,
-        "start": 131,
-        "end": 135,
+        "length": 15,
+        "start": 132,
+        "end": 146,
         "type": "C"
     },
    "ACODE_ICD9_2": {
-        "length": 5,
-        "start": 136,
-        "end": 140,
+        "length": 15,
+        "start": 147,
+        "end": 161,
         "type": "C"
     },
    "ACODE_ICD9_3": {
-        "length": 5,
-        "start": 141,
-        "end": 145,
+        "length": 15,
+        "start": 162,
+        "end": 176,
         "type": "C"
     },
     "ICD_OP_CODE": {
-        "length": 4,
-        "start": 146,
-        "end": 149,
+        "length": 15,
+        "start": 177,
+        "end": 191,
         "type": "C"
     },
    "DRUG_DAY": {
         "length": 2,
-        "start": 150,
-        "end": 151,
+        "start": 192,
+        "end": 193,
         "type": "N"
     },
    "MED_TYPE": {
         "length": 1,
-        "start": 152,
-        "end": 152,
+        "start": 194,
+        "end": 194,
         "type": "C"
     },
    "PRSN_ID": {
         "length": 32,
-        "start": 153,
-        "end": 184,
+        "start": 195,
+        "end": 226,
         "type": "C"
     },
    "PHAR_ID": {
         "length": 32,
-        "start": 185,
-        "end": 216,
+        "start": 227,
+        "end": 258,
         "type": "C"
     },
    "DRUG_AMT": {
         "length": 8,
-        "start": 217,
-        "end": 224,
+        "start": 259,
+        "end": 266,
         "type": "N"
     },
    "TREAT_AMT": {
         "length": 8,
-        "start": 225,
-        "end": 232,
+        "start": 267,
+        "end": 274,
         "type": "N"
     },
    "TREAT_CODE": {
         "length": 12,
-        "start": 233,
-        "end": 244,
+        "start": 275,
+        "end": 286,
         "type": "C"
     },
    "DIAG_AMT": {
         "length": 8,
-        "start": 245,
-        "end": 252,
-        "type": "C"
+        "start": 287,
+        "end": 294,
+        "type": "N"
     },
    "DSVC_NO": {
         "length": 12,
-        "start": 253,
-        "end": 264,
+        "start": 295,
+        "end": 306,
         "type": "C"
     },
     "DSVC_AMT": {
         "length": 8,
-        "start": 265,
-        "end": 272,
-        "type": "C"
+        "start": 307,
+        "end": 314,
+        "type": "N"
     },
    "BY_PASS_CODE": {
         "length": 2,
-        "start": 273,
-        "end": 274,
+        "start": 315,
+        "end": 316,
         "type": "C"
     },
    "T_AMT": {
         "length": 8,
-        "start": 275,
-        "end": 282,
-        "type": "C"
+        "start": 317,
+        "end": 324,
+        "type": "N"
     },
    "PART_AMT": {
         "length": 8,
-        "start": 283,
-        "end": 290,
-        "type": "C"
+        "start": 325,
+        "end": 332,
+        "type": "N"
     },
    "T_APPL_AMT": {
         "length": 8,
-        "start": 291,
-        "end": 298,
-        "type": "C"
+        "start": 333,
+        "end": 340,
+        "type": "N"
     },
    "ID_SEX": {
         "length": 1,
-        "start": 299,
-        "end": 299,
+        "start": 341,
+        "end": 341,
         "type": "C"
-    }
+    },
+    "TRAN_IN_HOSP_ID": {
+        "length": 34,
+        "start": 342,
+        "end": 375,
+        "type": "C"
+    },
+    "PAT_TRAN_OUT": {
+        "length": 1,
+        "start": 376,
+        "end": 376,
+        "type": "C"
+     },
+    "APPL_CAUSE_MARK": {
+        "length": 1,
+        "start": 377,
+        "end": 377,
+        "type": "C"
+    }    
 }

@@ -1,0 +1,80 @@
+{
+   "FEE_YM": {
+        "length": 6,
+        "start": 1,
+        "end": 6,
+        "type": "C"
+    },
+   "APPL_TYPE": {
+        "length": 1,
+        "start": 7,
+        "end": 7,
+        "type": "C"
+    },
+   "HOSP_ID": {
+        "length": 34,
+        "start": 8,
+        "end": 41,
+        "type": "C"
+    },
+   "APPL_DATE": {
+        "length": 8,
+        "start": 42,
+        "end": 49,
+        "type": "C"
+    },
+   "CASE_TYPE": {
+        "length": 1,
+        "start": 50,
+        "end": 50,
+        "type": "C"
+    },
+   "SEQ_NO": {
+        "length": 6,
+        "start": 51,
+        "end": 56,
+        "type": "N"
+    },
+    "ORDER_SEQ_NO": {
+        "length": 5,
+        "start": 57,
+        "end": 61,
+        "type": "N"
+    },
+    "ORDER_TYPE": {
+        "length": 1,
+        "start": 62,
+        "end": 62,
+        "type": "C"
+    },
+    "ORDER_CODE": {
+        "length": 12,
+        "start": 63,
+        "end": 74,
+        "type": "C"
+    },
+    "RATE_TYPE": {
+        "length": 4,
+        "start": 75,
+        "end": 78,
+        "type": "N"
+    },
+    "ORDER_QTY": {
+        "length": 7,
+        "start": 79,
+        "end": 85,
+        "type": "N"
+    },
+    "ORDER_PRICE": {
+        "length": 10,
+        "start": 86,
+        "end": 95,
+        "type": "N"
+    },
+    "ORDER_AMT ":{
+        "length": 8,
+        "start": 96,
+        "end": 103,
+        "type": "N"
+    }
+}

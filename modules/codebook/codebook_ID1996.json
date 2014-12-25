@@ -1,0 +1,80 @@
+{
+    "ID": {
+        "length": 32,
+        "start": 1,
+        "end": 32,
+        "type": "C"
+    },
+    "INS_ID": {
+        "length": 32,
+        "start": 33,
+        "end": 64,
+        "type": "C"
+    },
+    "INS_ID_TYPE": {
+        "length": 1,
+        "start": 65,
+        "end": 65,
+        "type": "C"
+    },
+    "INS_AMT": {
+        "length": 6,
+        "start": 66,
+        "end": 71,
+        "type": "N"
+    },
+    "ID_BIRTHDAY": {
+        "length": 8,
+        "start": 72,
+        "end": 79,
+        "type": "C"
+    },
+    "ID_SEX": {
+        "length": 1,
+        "start": 80,
+        "end": 80,
+        "type": "C"
+    },
+    "INS_RELATION": {
+        "length": 1,
+        "start": 81,
+        "end": 81,
+        "type": "C"
+    },
+    "UNIT_INS_TYPE": {
+        "length": 3,
+        "start": 82,
+        "end": 84,
+        "type": "C"
+    },
+    "AREA_NO_I": {
+        "length": 4,
+        "start": 85,
+        "end": 88,
+        "type": "C"
+    },
+    "ID_IN_TYPE": {
+        "length": 1,
+        "start": 89,
+        "end": 89,
+        "type": "C"
+    },
+    "ID_IN_DATE": {
+        "length": 8,
+        "start": 90,
+        "end": 97,
+        "type": "C"
+    },
+    "ID_OUT_TYPE": {
+        "length": 1,
+        "start": 98,
+        "end": 98,
+        "type": "C"
+    },
+    "ID_OUT_DATE": {
+        "length": 8,
+        "start": 99,
+        "end": 106,
+        "type": "C"
+    }
+}

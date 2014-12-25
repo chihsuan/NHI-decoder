@@ -1,0 +1,428 @@
+{
+   "FEE_YM": {
+        "length": 6,
+        "start": 1,
+        "end": 6,
+        "type": "C"
+    },
+   "APPL_TYPE": {
+        "length": 1,
+        "start": 7,
+        "end": 7,
+        "type": "C"
+    },
+   "HOSP_ID": {
+        "length": 34,
+        "start": 8,
+        "end": 41,
+        "type": "C"
+    },
+   "APPL_DATE": {
+        "length": 8,
+        "start": 42,
+        "end": 49,
+        "type": "C"
+    },
+   "CASE_TYPE": {
+        "length": 1,
+        "start": 50,
+        "end": 50,
+        "type": "C"
+    },
+   "SEQ_NO": {
+        "length": 6,
+        "start": 51,
+        "end": 56,
+        "type": "N"
+    },
+    "ID": {
+        "length": 32,
+        "start": 57,
+        "end": 88,
+        "type": "C"
+    },
+   "ID_BIRTHDAY": {
+        "length": 8,
+        "start": 89,
+        "end": 96,
+        "type": "C"
+    },
+   "GAVE_KIND": {
+        "length": 1,
+        "start": 97,
+        "end": 97,
+        "type": "C"
+   },
+   "TRAC_EVEN":{
+        "length": 1,
+        "start": 98,
+        "end": 98,
+        "type": "C"
+   },
+   "CARD_SEQ_NO":{
+        "length": 1,
+        "start": 99,
+        "end": 100,
+        "type": "C"
+   },
+  "ignore1":{
+        "length": 1,
+        "start": 101,
+        "end": 101,
+        "type": "I"
+   },
+   "FUNC_TYPE":{
+        "length": 2,
+        "start": 102,
+        "end": 103,
+        "type": "C"
+   },
+   "IN_DATE":{
+        "length": 8,
+        "start": 104,
+        "end": 111,
+        "type": "C"
+   },
+   "OUT_DATE":{
+        "length": 8,
+        "start": 112,
+        "end": 119,
+        "type": "C"
+   },
+   "APPL_BEG_DATE":{
+        "length": 8,
+        "start": 120,
+        "end": 127,
+        "type": "C"
+   },
+   "APPL_END_DATE":{
+        "length": 8,
+        "start": 128,
+        "end": 135,
+        "type": "C"
+   },
+   "E_BED_DAY":{
+        "length": 3,
+        "start": 136,
+        "end": 138,
+        "type": "N"
+   },
+   "S_BED_DAY":{
+        "length": 3,
+        "start": 139,
+        "end": 141,
+        "type": "N"
+   },
+   "PRSN_ID":{
+        "length": 32,
+        "start": 142,
+        "end": 173,
+        "type": "C"
+   },
+   "DRG_CODE":{
+        "length": 5,
+        "start": 174,
+        "end": 178,
+        "type": "C"
+   },
+   "EXT_CODE_1":{
+        "length": 5,
+        "start": 179,
+        "end": 183,
+        "type": "C"
+   },
+   "EXT_CODE_2":{
+        "length": 5,
+        "start": 184,
+        "end": 188,
+        "type": "C"
+   },
+   "TRAN_CODE":{
+        "length": 1,
+        "start": 189,
+        "end": 189,
+        "type": "C"
+   },
+   "ICD9CM_CODE":{
+        "length": 5,
+        "start": 190,
+        "end": 194,
+        "type": "C"
+   },
+   "ICD9CM_CODE_1":{
+        "length": 5,
+        "start": 195,
+        "end": 199,
+        "type": "C"
+   },
+   "ICD9CM_CODE_2":{
+        "length": 5,
+        "start": 200,
+        "end": 204,
+        "type": "C"
+   },
+   "ICD9CM_CODE_3":{
+        "length": 5,
+        "start": 205,
+        "end": 209,
+        "type": "C"
+   },
+   "ICD9CM_CODE_4":{
+        "length": 5,
+        "start": 210,
+        "end": 214,
+        "type": "C"
+   },
+   "ICD_OP_CODE":{
+        "length": 4,
+        "start": 215,
+        "end": 218,
+        "type": "C"
+   },
+   "ICD_OP_CODE_1":{
+        "length": 4,
+        "start": 219,
+        "end": 222,
+        "type": "C"
+   },
+   "ICD_OP_CODE_2":{
+        "length": 4,
+        "start": 223,
+        "end": 226,
+        "type": "C"
+   },
+   "ICD_OP_CODE_3":{
+        "length": 4,
+        "start": 227,
+        "end": 230,
+        "type": "C"
+   },
+   "ICD_OP_CODE_4":{
+        "length": 4,
+        "start": 231,
+        "end": 234,
+        "type": "C"
+   },
+   "DIAG_AMT":{
+        "length": 7,
+        "start": 235,
+        "end": 241,
+        "type": "N"
+   },
+   "ROOM_AMT":{
+        "length": 7,
+        "start": 242,
+        "end": 248,
+        "type": "N"
+   },
+   "MEAL_AMT":{
+        "length": 7,
+        "start": 249,
+        "end": 255,
+        "type": "N"
+   },
+   "AMIN_AMT":{
+        "length": 7,
+        "start": 256,
+        "end": 262,
+        "type": "N"
+   },
+   "RADO_AMT":{
+        "length": 7,
+        "start": 263,
+        "end": 269,
+        "type": "N"
+   },
+   "THRP_AMT":{
+        "length": 7,
+        "start": 270,
+        "end": 276,
+        "type": "N"
+   },
+   "SGRY_AMT":{
+        "length": 7,
+        "start": 277,
+        "end": 283,
+        "type": "N"
+   },
+   "PHSC_AMT":{
+        "length": 7,
+        "start": 284,
+        "end": 290,
+        "type": "N"
+   },
+   "BLOD_AMT":{
+        "length": 7,
+        "start": 291,
+        "end": 297,
+        "type": "N"
+   },
+   "HD_AMT":{
+        "length": 7,
+        "start": 298,
+        "end": 304,
+        "type": "N"
+   },
+   "ANE_AMT":{
+        "length": 7,
+        "start": 305,
+        "end": 311,
+        "type": "N"
+   },
+   "METR_AMT":{
+        "length": 7,
+        "start": 312,
+        "end": 318,
+        "type": "N"
+   },
+   "DRUG_AMT":{
+        "length": 7,
+        "start": 319,
+        "end": 325,
+        "type": "N"
+   },
+   "DSVC_AMT":{
+        "length": 7,
+        "start": 326,
+        "end": 332,
+        "type": "N"
+   },
+   "NRTP_AMT":{
+        "length": 7,
+        "start": 333,
+        "end": 339,
+        "type": "N"
+   },
+   "INJT_AMT":{
+        "length": 7,
+        "start": 340,
+        "end": 346,
+        "type": "N"
+   },
+   "BABY_AMT":{
+        "length": 7,
+        "start": 347,
+        "end": 353,
+        "type": "N"
+   },
+   "CHARG_AMT":{
+        "length": 7,
+        "start": 354,
+        "end": 360,
+        "type": "N"
+   },
+   "MED_AMT":{
+        "length": 7,
+        "start": 361,
+        "end": 368,
+        "type": "N"
+   },
+   "PART_AMT":{
+        "length": 7,
+        "start": 369,
+        "end": 375,
+        "type": "N"
+   },
+   "APPL_AMT":{
+        "length": 8,
+        "start": 376,
+        "end": 383,
+        "type": "N"
+   },
+   "EB_APPL30_AMT":{
+        "length": 8,
+        "start": 384,
+        "end": 391,
+        "type": "N"
+   },
+   "EB_PART30_AMT":{
+        "length": 7,
+        "start": 392,
+        "end": 398,
+        "type": "N"
+   },
+   "EB_APPL60_AMT":{
+        "length": 8,
+        "start": 399,
+        "end": 406,
+        "type": "N"
+   },
+   "EB_PART60_AMT":{
+        "length": 7,
+        "start": 407,
+        "end": 413,
+        "type": "N"
+   },
+   "EB_APPL61_AMT":{
+        "length": 8,
+        "start": 414,
+        "end": 421,
+        "type": "N"
+   },
+   "EB_PART61_AMT":{
+        "length": 7,
+        "start": 422,
+        "end": 428,
+        "type": "N"
+   },
+   "SB_APPL30_AMT":{
+        "length": 8,
+        "start": 429,
+        "end": 436,
+        "type": "N"
+   },
+   "SB_PART30_AMT":{
+        "length": 7,
+        "start": 437,
+        "end": 443,
+        "type": "N"
+   },
+   "SB_APPL90_AMT":{
+        "length": 8,
+        "start": 444,
+        "end": 451,
+        "type": "N"
+   },
+   "SB_PART90_AMT":{
+        "length": 7,
+        "start": 452,
+        "end": 458,
+        "type": "N"
+   },
+   "SB_APPL180_AMT":{
+        "length": 8,
+        "start": 459,
+        "end": 466,
+        "type": "N"
+   },
+   "SB_PART180_AMT":{
+        "length": 7,
+        "start": 467,
+        "end": 473,
+        "type": "N"
+   },
+   "SB_APPL181_AMT":{
+        "length": 8,
+        "start": 474,
+        "end": 481,
+        "type": "N"
+   },
+   "SB_PART181_AMT":{
+        "length": 7,
+        "start": 482,
+        "end": 488,
+        "type": "N"
+   },
+   "PART_MARK":{
+        "length": 3,
+        "start": 489,
+        "end": 491,
+        "type": "C"
+   },
+   "ID_SEX":{
+        "length": 1,
+        "start": 492,
+        "end": 492,
+        "type": "C"
+   }
+}

@@ -1,0 +1,134 @@
+{
+   "FEE_YM": {
+        "length": 6,
+        "start": 1,
+        "end": 6,
+        "type": "C"
+    },
+   "APPL_TYPE": {
+        "length": 1,
+        "start": 7,
+        "end": 7,
+        "type": "C"
+    },
+   "HOSP_ID": {
+        "length": 34,
+        "start": 8,
+        "end": 41,
+        "type": "C"
+    },
+   "APPL_DATE": {
+        "length": 8,
+        "start": 42,
+        "end": 49,
+        "type": "C"
+    },
+   "CASE_TYPE": {
+        "length": 1,
+        "start": 50,
+        "end": 50,
+        "type": "C"
+    },
+   "SEQ_NO": {
+        "length": 6,
+        "start": 51,
+        "end": 56,
+        "type": "N"
+    },
+   "R_HOSP_ID":{
+        "length" 34,
+        "start": 57,
+        "end": 90,
+        "type": "C"
+   },
+   "R_CASE_TYPE":{
+        "length": 2,
+        "start": 91,
+        "end": 92,
+        "type": "C"
+   }
+   "FUNC_TYPE":{
+        "length": 2,
+        "start": 93,
+        "end": 94,
+        "type": "C"
+    },
+   "FUNC_DATE":{
+        "length": 8,
+        "start": 95,
+        "end": 102,
+        "type": "C"
+   },
+   "DRUG_DATE":{
+        "length": 8,
+        "start": 103,
+        "end": 110,
+        "type": "C"
+   },
+   "ID_BIRTHDAY": {
+        "length": 8,
+        "start": 111,
+        "end": 118,
+        "type": "C"
+    },
+    "ID": {
+        "length": 32,
+        "start": 119,
+        "end": 150,
+        "type": "C"
+    },
+   "CARD_SEQ_NO":{
+        "length": 2,
+        "start": 151,
+        "end": 152,
+        "type": "C"
+   },
+    "GAVE_KIND": {
+        "length": 1,
+        "start": 153,
+        "end": 153,
+        "type": "C"
+   },
+   "DRUG_DAY":{
+        "length": 2,
+        "start": 154,
+        "end": 155,
+        "type": "N"
+   },
+   "PRSN_ID":{
+        "length": 32,
+        "start": 156,
+        "end": 187,
+        "type": "C"
+   },
+   "PHAR_ID":{
+        "length": 32,
+        "start": 188,
+        "end": 219,
+        "type": "C"
+   },
+   "DRUG_AMT":{
+        "length": 8,
+        "start": 220,
+        "end": 227,
+        "type": "N"
+   },
+   "DSVC_AMT":{
+        "length": 8,
+        "start": 228,
+        "end": 235,
+        "type": "N"
+   },
+   "T_APPL_AMT":{
+        "length": 8,
+        "start": 236,
+        "end": 243,
+        "type": "N"
+   },
+   "SEX":{
+        "length": 1,
+        "start": 244,
+        "end": 244,
+        "type": "C"
+   }
+}

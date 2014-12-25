@@ -1,0 +1,110 @@
+{
+   "FEE_YM": {
+        "length": 6,
+        "start": 1,
+        "end": 6,
+        "type": "C"
+    },
+   "APPL_TYPE": {
+        "length": 1,
+        "start": 7,
+        "end": 7,
+        "type": "C"
+    },
+   "HOSP_ID": {
+        "length": 34,
+        "start": 8,
+        "end": 41,
+        "type": "C"
+    },
+   "APPL_DATE": {
+        "length": 8,
+        "start": 42,
+        "end": 49,
+        "type": "C"
+    },
+   "CASE_TYPE": {
+        "length": 2,
+        "start": 50,
+        "end": 51,
+        "type": "C"
+    },
+   "SEQ_NO": {
+        "length": 6,
+        "start": 52,
+        "end": 57,
+        "type": "N"
+    },
+    "ORDER_TYPE": {
+        "length": 1,
+        "start": 58,
+        "end": 58,
+        "type": "C"
+    },
+    "DRUG_NO": {
+        "length": 12,
+        "start": 59,
+        "end": 70,
+        "type": "C"
+    },
+    "DRUG_USE": {
+        "length": 9,
+        "start": 71,
+        "end": 79,
+        "type": "C"
+    },
+    "DRUG_FRE": {
+        "length": 18,
+        "start": 80,
+        "end": 97,
+        "type": "C"
+    },
+    "UNIT_PRICE": {
+        "length": 10,
+        "start": 98,
+        "end": 107,
+        "type": "N"
+    },
+    "TOTAL_QTY": {
+        "length": 7,
+        "start": 108,
+        "end": 114,
+        "type": "N"
+    },
+    "TOTAL_AMT": {
+        "length": 8,
+        "start": 115,
+        "end": 122,
+        "type": "N"
+    },
+    "REL_MODE": {
+        "length": 1,
+        "start": 123,
+        "end": 123,
+        "type": "C"
+    },
+    "EXE_S_DATE": {
+        "length": 16,
+        "start": 124,
+        "end": 139,
+        "type": "C"
+    },
+    "EXE_E_DATE": {
+        "length": 16,
+        "start": 140,
+        "end": 155,
+        "type": "C"
+    },
+    "PAY_RATE": {
+        "length": 10,
+        "start": 156,
+        "end": 165,
+        "type": "C"
+    },
+    "CURE_PATH": {
+        "length": 30,
+        "start": 166,
+        "end": 196,
+        "type": "C"
+    }
+}
