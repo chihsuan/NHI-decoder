@@ -1,5 +1,6 @@
 # !/usr/bin/evn python
 # -*- coding: utf8 -*-
+import json_io
 from dec_converter import dec_convert
 
 class GO:

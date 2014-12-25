@@ -39,3 +39,13 @@ class CodeBook:
         else:
             print 'Error: encoding do not found'
             exit(-1)
+
+    def decode_file(self, filename, encoding, year):
+        data = []
+        f = open(filename)
+        for line in f.readlines():
+            code = self.decode(line[:-1], encoding, year)
+            data.append(code)
+        f.close()
+        return data
+
