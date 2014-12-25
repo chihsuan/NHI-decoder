@@ -1,0 +1,16 @@
+{
+  "database" : {
+    "dbtype" : "PostgreSQL",
+    "dbname" : "",
+    "username" : "",
+    "host" : "localhost",
+    "encoding" : "utf8",
+    "password" : ""
+   },
+   "data": {
+    "folder_path": "./data/"
+   },
+   "codebook":{
+    "path": "modules/codebook/"
+   }
+}

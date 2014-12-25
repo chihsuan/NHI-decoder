@@ -5,18 +5,20 @@ import sys
 import os
 
 from modules.CodeBook import CodeBook
+from db.MyDB import MyDB
 
 if __name__=='__main__':
 
-    if len(sys.argv) != 2:
-        print 'Error argv1 should be data folder'
-        eixt(-1)
-
-    codebook = CodeBook('modules/codebook/')
+    config = json_io.read_json('config.json')
+    codebook = CodeBook(config[u'codebook'][u'path'])
     
-    for root, _, files in os.walk(sys.argv[1]):
+    db_config = config[u'database']
+    mydb = DataDB( db_config[u'dbtype'], db_config[u'host'], db_config[u'dbname'], \
+            db_config[u'username'], db_config[u'password'], db_config[u'encoding'], "")
+    
+    for root, _, files in os.walk(config[u'data'][u'folder_path']):
         for f in files:
             encoding = f[5:7]
             year = int(f[7:11])
             data = codebook.decode_file(root+f, encoding, year)
-
+            
