@@ -24,7 +24,7 @@ if __name__=='__main__':
     
     db_config = config[u'database']
     mydb = MyDB( db_config[u'dbtype'], db_config[u'host'], db_config[u'dbname'], \
-            db_config[u'username'], db_config[u'password'], db_config[u'encoding'], "")
+            db_config[u'username'], db_config[u'password'], db_config[u'encoding'], None)
     
     table_dic = config[u'table']
 
