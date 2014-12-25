@@ -8,9 +8,6 @@ def dec_convert(code, codebook):
             col = col.encode('utf-8')
             start = attrs['start']
             end = attrs['end']
-            #if attrs['type'] == 'C':
-            data[col] = code[start-1:end]
-            #elif attrs['type'] == 'N':
-             #   data[col] = int(code[start-1:end])
+            data[col] = code[start-1:end].replace(' ','')
     return data
 

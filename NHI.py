@@ -17,6 +17,6 @@ if __name__=='__main__':
     for root, _, files in os.walk(sys.argv[1]):
         for f in files:
             encoding = f[5:7]
-            year = f[7:11]
+            year = int(f[7:11])
             data = codebook.decode_file(root+f, encoding, year)
 

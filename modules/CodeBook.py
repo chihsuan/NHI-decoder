@@ -25,17 +25,17 @@ class CodeBook:
         if encoding == 'CD':
             return self.CD.decode(code, year)
         elif encoding == 'DD':
-            return self.CD.decode(code, year)
+            return self.DD.decode(code, year)
         elif encoding == 'DO':
-            return self.CD.decode(code, year)
+            return self.DO.decode(code, year)
         elif encoding == 'GD':
-            return self.CD.decode(code, year)
+            return self.GD.decode(code, year)
         elif encoding == 'GO':
-            return self.CD.decode(code, year)
+            return self.GO.decode(code, year)
         elif encoding == 'ID':
-            return self.CD.decode(code, year)
+            return self.ID.decode(code, year)
         elif encoding == 'OO':
-            return self.CD.decode(code, year)
+            return self.OO.decode(code, year)
         else:
             print 'Error: encoding do not found'
             exit(-1)
