@@ -6,7 +6,7 @@ NHI-decoder
 
 ## Description
 
-This is a program to convert the NHI data from .dat format to json fromat and insert to database.
+This is a program to convert the NHI data from .dat format to json format and insert to database.
 
 這是一個程式用來轉換健保資料從.dat格式成json格式，並儲存到資料庫中。
 
