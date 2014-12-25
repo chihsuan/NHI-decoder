@@ -64,7 +64,7 @@
         "start": 95,
         "end": 102,
         "type": "N"
-    }
+    },
     "PAY_RATE":{
         "length": 10,
         "start": 103,

@@ -306,7 +306,7 @@
         "type": "N"
    },
    "MED_AMT":{
-        "length": 7,
+        "length": 8,
         "start": 362,
         "end": 369,
         "type": "N"

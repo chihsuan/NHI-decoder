@@ -71,7 +71,7 @@
         "end": 96,
         "type": "N"
     },
-    "ORDER_AMT ":{
+    "ORDER_AMT":{
         "length": 8,
         "start": 97,
         "end": 104,

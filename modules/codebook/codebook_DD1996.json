@@ -60,7 +60,7 @@
         "type": "C"
    },
    "CARD_SEQ_NO":{
-        "length": 1,
+        "length": 2,
         "start": 99,
         "end": 100,
         "type": "C"
@@ -312,7 +312,7 @@
         "type": "N"
    },
    "MED_AMT":{
-        "length": 7,
+        "length": 8,
         "start": 361,
         "end": 368,
         "type": "N"

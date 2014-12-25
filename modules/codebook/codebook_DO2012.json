@@ -48,7 +48,7 @@
         "type": "C"
     },
     "PAY_RATE": {
-        "length": 4,
+        "length": 10,
         "start": 71,
         "end": 80,
         "type": "N"

@@ -266,7 +266,7 @@
    "METR_AMT":{
         "length": 7,
         "start": 314,
-        "end": 319,
+        "end": 320,
         "type": "N"
    },
    "DRUG_AMT":{
@@ -306,7 +306,7 @@
         "type": "N"
    },
    "MED_AMT":{
-        "length": 7,
+        "length": 8,
         "start": 363,
         "end": 370,
         "type": "N"

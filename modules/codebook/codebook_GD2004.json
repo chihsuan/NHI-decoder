@@ -36,7 +36,7 @@
         "type": "N"
     },
    "R_HOSP_ID":{
-        "length" 34,
+        "length": 34,
         "start": 57,
         "end": 90,
         "type": "C"
@@ -46,7 +46,7 @@
         "start": 91,
         "end": 92,
         "type": "C"
-   }
+   },
    "FUNC_TYPE":{
         "length": 2,
         "start": 93,
