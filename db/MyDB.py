@@ -26,6 +26,7 @@ class MyDB:
                         user = self.user,
                         passwd = self.passwd,
                         charset = self.charset )
+                self.cursor = self.db.cursor()
             elif self.db_type == "postgresql":
                 self.db = psycopg2.connect( host = self.host,
                         database = self.db_name,
@@ -39,6 +40,7 @@ class MyDB:
 
 
     def exe_sql(self, sql):
+        print sql
         try:
             self.cursor.execute(sql)
             self.db.commit()
@@ -53,23 +55,30 @@ class MyDB:
 
     def insert(self, table_name, key_list, data_list):
 
-		sql = "INSERT INTO %s (%s" % table_name, key_list[0] 
+		sql = "INSERT INTO %s (%s" % (table_name, key_list[0].lower())
 
-		for i in range( 1, len(key_list) ):
+		for i in range(1, len(key_list)):
 			sql += "," + key_list[i]
 		
 		sql += ") VALUES ("
-		for i in range( 0, len(data_list) ):
-			if data_list[i]:	
-				try: 
-					sql += "'"+ data_list[i] + "',"
-				except TypeError:	
-					sql += "'"+ str(data_list[i]) + "',"
-			else:
-				sql += "' ',"
+		for i in range(0, len(data_list)):
+			try: 
+				sql += "'"+ data_list[i] + "',"
+			except TypeError:	
+				sql += "'"+ str(data_list[i]) + "',"
 
-		sql = sql[0: len(sql) -1 ] + ");"
-		self.doc_sql(sql, data_list[0])
+		sql = sql[0:len(sql)-1] + ");"
+		self.exe_sql(sql)
+
+    def create_table(self, table_name, key_list, len_list):
+        sql = ("CREATE TABLE IF NOT EXISTS %s ( " % table_name)
+        for i in range(0, len(key_list)-1):
+            sql += key_list[i].encode('utf-8') 
+            sql += ' varchar(' + str(len_list[i][u'length']) + '),'
+
+        sql += key_list[-1].encode('utf-8') 
+        sql += ' varchar(' + str(len_list[-1][u'length']) + ") );"
+        self.exe_sql(sql)
 
     def show_info(self):
         self.cursor.execute( "SELECT VERSION()")

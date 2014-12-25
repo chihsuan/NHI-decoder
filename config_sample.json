@@ -1,6 +1,6 @@
 {
   "database" : {
-    "dbtype" : "PostgreSQL",
+    "dbtype" : "postgresql",
     "dbname" : "",
     "username" : "",
     "host" : "localhost",
