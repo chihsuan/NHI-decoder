@@ -51,7 +51,7 @@ class MyDB:
         self.exe_sql(sql)
         return self.cursor.fetchall()
 
-    def insert_data(self, table_name, key_list, data_list):
+    def insert(self, table_name, key_list, data_list):
 
 		sql = "INSERT INTO %s (%s" % table_name, key_list[0] 
 

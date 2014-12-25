@@ -7,7 +7,16 @@ import os
 from modules.CodeBook import CodeBook
 from db.MyDB import MyDB
 
+def get_table_name(table_dic, encoding, year):
+    category = table_dic[encoding.decode('utf-8')]
+    for table_name, years in category.iteritems():
+        if year >= years[0] and year <= years[1]:
+            return table_name
+
 if __name__=='__main__':
+'''
+Read NHI .dat fromat data, decode and insert to db 
+'''
 
     config = json_io.read_json('config.json')
     codebook = CodeBook(config[u'codebook'][u'path'])
@@ -21,4 +30,6 @@ if __name__=='__main__':
             encoding = f[5:7]
             year = int(f[7:11])
             data = codebook.decode_file(root+f, encoding, year)
-            
+            table_name = get_table_name(table_dic, encoding, year)
+            for row in data:
+                mydb.insert(table_name, row.keys(), row.values())
