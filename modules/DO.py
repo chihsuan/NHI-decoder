@@ -17,7 +17,7 @@ class DO:
             return dec_convert(code, self.book_1996)
         elif year >= 2007 and year <= 2009:
             return dec_convert(code, self.book_2007)
-        elif year >= 2010 and year <= 2012:
+        elif year >= 2010 and year <= 2011:
             return dec_convert(code, self.book_2010)
         elif year >= 2012:
             return dec_convert(code, self.book_2012)

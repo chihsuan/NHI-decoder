@@ -4,6 +4,7 @@
 import sys
 import os
 
+from modules import json_io
 from modules.CodeBook import CodeBook
 from db.MyDB import MyDB
 
@@ -14,17 +15,19 @@ def get_table_name(table_dic, encoding, year):
             return table_name
 
 if __name__=='__main__':
-'''
-Read NHI .dat fromat data, decode and insert to db 
-'''
+    '''
+    Read NHI .dat fromat data, decode and insert to db 
+    '''
 
     config = json_io.read_json('config.json')
     codebook = CodeBook(config[u'codebook'][u'path'])
     
     db_config = config[u'database']
-    mydb = DataDB( db_config[u'dbtype'], db_config[u'host'], db_config[u'dbname'], \
+    mydb = MyDB( db_config[u'dbtype'], db_config[u'host'], db_config[u'dbname'], \
             db_config[u'username'], db_config[u'password'], db_config[u'encoding'], "")
     
+    table_dic = config[u'table']
+
     for root, _, files in os.walk(config[u'data'][u'folder_path']):
         for f in files:
             encoding = f[5:7]

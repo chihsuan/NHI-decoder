@@ -12,7 +12,7 @@ class OO:
 
     def decode(self, code, year):
 
-        if year >= 1996 and year <= 2003:
+        if year >= 1996 and year <= 2006:
             return dec_convert(code, self.book_1996)
         elif year >= 2007 and year <= 2011:
             return dec_convert(code, self.book_2007)

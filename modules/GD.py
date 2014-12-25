@@ -16,7 +16,7 @@ class GD:
 
         if year >= 1996 and year <= 1998:
             return dec_convert(code, self.book_1996)
-        elif year >= 1999 and year <= 2008:
+        elif year >= 1999 and year <= 2003:
             return dec_convert(code, self.book_1999)
         elif year >= 2004 and year <= 2009:
             return dec_convert(code, self.book_2004)
