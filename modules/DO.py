@@ -5,11 +5,10 @@ from dec_converter import dec_convert
 class DO:
 
     def __init__(self, path):
-        pass
-        #self.book_1996 = json_io.read_json(path + 'codebook_CD1996.json') 
-        #self.book_2007 = json_io.read_json(path + 'codebook_CD2004.json')
-        #self.book_2010 = json_io.read_json(path + 'codebook_CD2007.json')
-        #self.book_2012 = json_io.read_json(path + 'codebook_CD2007.json')
+        self.book_1996 = json_io.read_json(path + 'codebook_DO1996.json') 
+        self.book_2007 = json_io.read_json(path + 'codebook_DO2007.json')
+        self.book_2010 = json_io.read_json(path + 'codebook_DO2010.json')
+        self.book_2012 = json_io.read_json(path + 'codebook_DO2012.json')
 
     def decode(self, code, year):
 
