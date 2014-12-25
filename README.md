@@ -6,20 +6,30 @@ NHI-decoder
 
 ## Description
 
-This is a program to convert the NHI data from .dat format to json format and insert to database.
+This is a program which convert the NHI data from `.dat` format to `json` format and insert to the database.
 
-這是一個程式用來轉換健保資料從.dat格式成json格式，並儲存到資料庫中。
+這是一個用來將健保資料從`.dat`格式轉換成`json`格式並儲存到資料庫中的程式。
 
 ## Required
 
-    pip install psycopg2
+    sudo pip install psycopg2
 
 
 ## Usage
 
-+ fill up the `config_sample.json` and rename as `config.json`.
+### config
 
-+ you can use `create_table.py` to create tables.
+fill out the `config_sample.json` and rename as `config.json`.
+
+### create tables
+
+    python create_table.py
+
+### convert and insert
+
+    python NHI.py
+
+
 
 
 
