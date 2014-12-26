@@ -1,5 +1,5 @@
 # !/usr/bin/evn python
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 
 import MySQLdb
 import psycopg2
@@ -65,7 +65,7 @@ class MyDB:
 		sql += ") VALUES ("
 		for i in range(0, len(data_list)):
 			try: 
-				sql += "'"+ data_list[i] + "',"
+				sql += "'"+ data_list[i].encode('utf-8') + "',"
 			except TypeError:	
 				sql += "'"+ str(data_list[i]) + "',"
 
