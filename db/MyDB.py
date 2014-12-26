@@ -65,9 +65,12 @@ class MyDB:
 		sql += ") VALUES ("
 		for i in range(0, len(data_list)):
 			try: 
-				sql += "'"+ data_list[i].encode('utf-8') + "',"
+				sql += "'"+ data_list[i] + "',"
 			except TypeError:	
 				sql += "'"+ str(data_list[i]) + "',"
+			except UnicodeDecodeError:
+			    data_list[i] = data_list[i].decode('utf-8').encode('utf-8')
+			    sql += "'"+ data_list[i] + "',"
 
 		sql = sql[0:len(sql)-1] + ");"
 		self.exe_sql(sql)
