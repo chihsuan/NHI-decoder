@@ -40,15 +40,17 @@ class MyDB:
 
 
     def exe_sql(self, sql):
-        print sql
+        #print sql
+        self.cursor.execute(sql)
+
+    def commit(self):
         try:
-            self.cursor.execute(sql)
             self.db.commit()
         except psycopg2.DatabaseError, e:
             print 'Error %s' % e    
             self.db.rollback()
             sys.exit(1)
-
+    
     def select(self, sql):
         self.exe_sql(sql)
         return self.cursor.fetchall()

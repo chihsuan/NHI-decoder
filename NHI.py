@@ -30,9 +30,11 @@ if __name__=='__main__':
 
     for root, _, files in os.walk(config[u'data'][u'folder_path']):
         for f in files:
+            print f
             encoding = f[5:7]
             year = int(f[7:11])
             data = codebook.decode_file(root+f, encoding, year)
             table_name = get_table_name(table_dic, encoding, year)
             for row in data:
                 mydb.insert(table_name, row.keys(), row.values())
+            mydb.commit()
