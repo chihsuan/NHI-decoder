@@ -57,7 +57,7 @@ class MyDB:
 
     def insert(self, table_name, key_list, data_list):
 
-		sql = "INSERT INTO %s (%s" % (table_name, key_list[0].lower())
+		sql = "INSERT INTO %s (%s" % (table_name, key_list[0])
 
 		for i in range(1, len(key_list)):
 			sql += "," + key_list[i]

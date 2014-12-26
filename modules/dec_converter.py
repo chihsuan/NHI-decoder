@@ -9,6 +9,5 @@ def dec_convert(code, codebook):
             start = attrs['start']
             end = attrs['end']
             data[col] = code[start-1:end].replace(' ', '').replace(' ', '')
-    print data
     return data
 
